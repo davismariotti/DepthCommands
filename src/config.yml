@@ -1,0 +1,13 @@
+#This is the DepthCommands config.
+#
+#Below which height should specified commands be blocked?
+Height: 30
+#
+#Which commands should be blocked?
+#People with the permission "depthcommands.bypass" bypass this.
+#You can also optionally include arguments as shown below
+Forbidden-Commands:
+  - home
+  - spawn
+  - tp
+  - f home
