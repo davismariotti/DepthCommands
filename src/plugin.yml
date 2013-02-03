@@ -9,8 +9,6 @@ permissions:
   depthcommands.*:
     description: Gives depth commands permissions.
     children:
-      depthcommands.bypass:
-        description: Allows one to use forbidden commands below the set height.
-        default: false
+      depthcommands.bypass: true
   depthcommands.bypass:
     description: Allows a player to bypass command blocking.
